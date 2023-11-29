@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oswald:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-color: #040303;
+    /* color: #414141; */
+}
+
+.sidebar {
+    background-color: #000000;
+    /* width: 270px;  */
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 25px 0;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    display: block;
+    height: 10%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 30px;
+    color:  rgb(200, 189, 218);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    font-weight: bold;
+    padding-right: 0%;
+}
+
+.main {
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    
+    height: 70vh;
+    width: 78vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hello {
+    font-size: 3em;
+    color: rgb(200, 189, 218);
+
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bolder;
+    color: rgb(200, 189, 218);
+}
+
+.about {
+    font-size: 2.5em;
+    color: rgb(200, 189, 218);
+}
+.aboutme {
+    font-size: 1.5em;
+    margin-top: 9px;
+    color: rgb(200, 189, 218);
+}
+
+.buttons button {
+    padding: 13px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(200, 189, 218);
+    margin: 0 to 3px;
+    cursor: pointer;
+}
+
+.buttons button :hover {
+    background-color: rgb(245, 244, 244);
+}
+
+.devpic img {
+    margin-top: 9px;
+    margin-bottom: 6px;
+    max-width: 65vw;
+    max-height: 65vh;
+    border-radius: 50%;
+}
+
+.contactform {
+    font-family: 'Oswald', sans-serif;
+    padding: 0 34px;
+    padding-top: 20px;
+    margin: 0% 30%;
+    width: 50vw;
+    color: rgb(200, 189, 218);
+
+}
+
+.contactform h1 {
+    font-family: 'Arial', sans-serif;
+    padding: 12px 0;
+    margin-right: 28%;
+    color: rgb(200, 189, 218);
+}
+
+.contactform form div {
+    padding: 3px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 3px 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 10px;
+    color: rgb(200, 189, 218);
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    size: 10px;
+    width: 20px;
+    margin: 3px 0;
+}
+
+.btn {
+    width: 9vw;
+    margin: 3px 0;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: rgb(46, 45, 45);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(200, 189, 218);
+    cursor: pointer;
+}
+
+.projectContainer {
+    margin: 5% 5%;
+}
+
+.projectItem {
+    font-size: 85%;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    color: rgb(200, 189, 218);
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 0%;
+    margin-left: 4%;
+    color: rgb(200, 189, 218);
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0%;
+    margin-left: 2%;
+    color: rgb(200, 189, 218);
+
+}
+
+.intro h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(200, 189, 218);
+
+}
+
+.intro p {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(200, 189, 218);
+
+}
+
+.skillcontainer {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.skills {
+    font-family: Arial, sans-serif;
+    margin-left: 10%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(200, 189, 218);
+    
+}
+
+.skills ul {
+    text-align: center;
+    margin: 5%;
+    font-size: 30px;
+}
+
+.skills ul li {
+    font-size: 20px;
+    margin-top: 4%;
+    list-style: none;
+}
+.pic img {
+    margin-right: 50%;
+    width: 38vw;
+    max-height: 50vh;
+    border-radius: 40%;
+    
+}
+
+.sidebarGo {
+    transform: translate(-243px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 150px;
+}
+
+@media (max-width:1015px) {
+
+    /* *{
+        /* background-color: rgb(233, 216, 216); */
+        .devinfo{
+            font-size: 10px;
+        }
+    .devpic {
+        display: none;
+    }
+
+    /* .sidebar{
+        transform: translate(-143,0px);
+        position: absolute;
+    } */
+}
